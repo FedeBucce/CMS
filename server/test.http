@@ -1,0 +1,17 @@
+@APIURL=http://localhost:3000/api
+
+
+GET {{APIURL}}/pages/5
+
+###
+
+GET {{APIURL}}/pages
+###
+
+DELETE {{APIURL}}/pages/1
+
+###
+
+GET {{APIURL}}/pages/2/blocks
+
+
